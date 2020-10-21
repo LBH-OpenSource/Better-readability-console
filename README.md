@@ -17,3 +17,4 @@ BRCImportant("%cI am more important!");
 *Shortened function to BRC for faster usage.*
 
 **Important remember to use `%c` Before each string, to allow styling.**
+    
