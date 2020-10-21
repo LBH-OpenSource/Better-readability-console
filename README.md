@@ -11,6 +11,8 @@ Install the package with `npm install @lbhindsberg/brc`.
 var brc = require("@lbhindsberg/brc)
 
 BRC("%c I am easier to read."); // BRC = BetterReadabilityConsole
+
+BRCImportant("%cI am more important!");
 ```
 *Shortened function to BRC for faster usage.*
 
