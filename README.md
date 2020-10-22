@@ -13,7 +13,10 @@ var brc = require("@lbhindsberg/brc)
 BRC("%c I am easier to read."); // BRC = BetterReadabilityConsole
 
 BRCImportant("%cI am more important!");
+
+BRCWarning("%cI warn you!");
 ```
 *Shortened function to BRC for faster usage.*
 
 **Important remember to use `%c` Before each string, to allow styling.**
+    
