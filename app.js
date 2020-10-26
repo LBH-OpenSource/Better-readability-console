@@ -12,8 +12,14 @@ function BRCWarning(string) {
     let consoleCSS = "font-size: 2em; color: #f00; text-decoration: underline;"
     console.log(string, consoleCSS);
 };
+function BRCFinished(string) {
+    let consoleCSS = "font-size: 2em; color: #0f0; text-decoration: underline;"
+    console.log(string, consoleCSS);
+};
 
 
 module.exports = BRC
 module.exports = BRCImportant
 module.exports = BRCWarning
+module.exports = BRCFinished
+    

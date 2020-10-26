@@ -18,6 +18,8 @@ BRC("%c I am easier to read."); // BRC = BetterReadabilityConsole
 BRCImportant("%cI am more important!");
 
 BRCWarning("%cI warn you!");
+
+BRCFinished("%CFinished Example");
 ```
 *Shortened function to BRC for faster usage.*
 
@@ -25,6 +27,7 @@ BRCWarning("%cI warn you!");
     
 ### Example 
 *You've just fetched a huge array, and tried to `console.log()`'d it, but it didnt show up in your console*
+
 To figure out where your function went wrong you enter
 ```javascript
 //fetching badabing badaboom
@@ -32,4 +35,5 @@ BRC("%CFinished Fetching");
 
 //Printing out into console
 BRC("%CFinished printing array");
+
 ```
